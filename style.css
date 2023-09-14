@@ -40,10 +40,12 @@
     color: white;
     border: 1px solid white;
     margin-bottom: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .hello{
-   margin-top: 150px;
-   margin-left: 150px;
    font-size: 30px;
 }
 
