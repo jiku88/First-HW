@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    margin-bottom: 150px;
 }
 
 .navbar{
@@ -65,10 +66,14 @@ body{
     margin-top: -10px;
     font-size: 18px;
 }
+.about-img{
+    border: none;
+}
 .about-img>img{
-    width: 480px;
+    width: 400px;
     height: 450px;
-    padding-left: 70px;
+    margin-left: 70px;
+    border-radius: 7px;
 }
 .about-description{
     display: flex;
@@ -83,8 +88,73 @@ body{
 .about-btn{
     margin-top: 70px;
     background-color: yellow;
+    color: white;
     border: none;
     padding: 15px;
     font-size: 20px;
     border-radius: 8px;
+}
+
+
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.services>p{
+    margin-top: -15px;
+    font-size: 18px;
+}
+.services>h2{
+    font-size: 36px;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    
+}
+
+.first-card{
+    border: 2px solid gray;
+    border-radius: 7px;
+    width: 280px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.second-card{
+    border: 2px solid gray;
+    border-radius: 7px;
+    width: 280px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.third-card{
+    border: 2px solid gray;
+    border-radius: 7px;
+    width: 280px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.cards-btn{
+    background-color: yellow;
+    border: none;
+    padding: 10px 70px;
+    font-size: 20px;
+    border-radius: 8px;
+   margin-bottom: 20px;
+   margin-top: 80px;
 }
